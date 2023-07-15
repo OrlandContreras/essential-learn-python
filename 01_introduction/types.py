@@ -17,6 +17,19 @@ print(price * tax)
 # print(price + _) # only works in interactive mode
 # print(round(_, 2)) # round to 2 decimal places. only works in interactive mode
 
+# Binary numbers
+print(0b10)  # binary
+
+# Octal and Hexadecimal Numbers
+print(0o177)  # octal
+print(0x9FF)  # hexadecimal
+
+# Exponent
+print(3e8)  # 3 * 10^8
+
+# Planck constant
+print(6.62607e-34)  # 6.62607 * 10^-34
+
 # Strings
 print("spam eggs")  # single quotes
 print("doesn't")  # use \' to escape the single quote...
