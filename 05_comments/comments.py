@@ -10,4 +10,4 @@ print("c =", c)
 # uncomment_me_too = 2
 # uncomment_me_also = 3
 
-print("") # Print uncomment variables
+print("", sep="\n") # Print uncomment variables
