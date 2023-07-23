@@ -72,6 +72,33 @@ print(word[:2] + "py")  # slicing out of range is handled gracefully
 s = "supercalifragilisticexpialidocious"
 print(len(s))  # length of string
 
+print("temperatures and facts about the moon".title()) # capitalize the first letter of each word
+
+# Split str¡ngs
+temperatures = "Daylight: 260 F Nighttime: -280 F"
+temperatures_list = temperatures .split()
+print(temperatures_list)
+
+# Search in strings
+print("Moon" in "This text will describe facts and challenges with space travel") # search for a substring
+
+temperatures = """Saturn has a daytime temperature of -170 degrees Celsius, while Mars has -28 Celsius."""
+print(temperatures.find("Moon"))
+
+# String formatting
+mass_percentage = "1/6"
+print("On the Moon, you would weigh about %s of your weight on Earth." % mass_percentage)
+print("On the Moon, you would weigh about {} of your weight on Earth.".format(mass_percentage))
+print("""You are lighter on the {0}, because on the {0} you would weigh about {1} of your weight on Earth.""".format("Moon", mass_percentage))
+
+# f-strings
+print(f"On the Moon, you would weigh about {mass_percentage} of your weight on Earth.")
+
+subject = "interesting facts about the moon"
+heading = f"{subject.title()}"
+print(heading)
+
+
 # Lists
 squares = [1, 4, 9, 16, 25]
 print(squares)
@@ -106,6 +133,16 @@ x = [a, n]
 print(x)
 print(x[0])
 print(x[0][1])
+
+# Remove items from a list
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+planets.pop()  # Goodbye, Pluto
+number_of_planets = len(planets)
+print("No, there are definitely", number_of_planets, "planets in the solar system.")
+
+# Find items in a list
+jupiter_index = planets.index("Jupiter")
+print("Jupiter is the", jupiter_index + 1, "planet from the sun")
 
 # First Steps Towards Programming
 a, b = 0, 1
