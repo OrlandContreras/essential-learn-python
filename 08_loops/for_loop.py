@@ -14,3 +14,9 @@ for number in countdown:
     sleep(1)  # Wait 1 second
 print("Blast off!! 🚀")
 
+# for loop with else
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
+    

@@ -39,3 +39,12 @@ while user_input.lower() != 'done':
     user_input = input('Enter a new value, or done when done: ')
     
 print(f'inputs: {inputs}')
+
+# while loop with else
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+    
