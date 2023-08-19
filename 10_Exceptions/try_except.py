@@ -17,6 +17,7 @@ except ZeroDivisionError:
 except:  # Exceptio by default
     print("Something strange has happened here... Sorry!")
 
+
 """
 Some useful exceptions:
 - ZeroDivisionError
